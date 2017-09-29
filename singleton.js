@@ -14,7 +14,7 @@ MyNameSpace.Singleton = (function () {
             if (!_singletonInstance) {
                 _singletonInstance = constructor()
             }
-            
+
             return _singletonInstance
         }
     }
